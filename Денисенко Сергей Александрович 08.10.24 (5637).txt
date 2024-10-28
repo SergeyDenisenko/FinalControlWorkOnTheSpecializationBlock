@@ -1,0 +1,19 @@
+   13  2024-10-08 15:54:48 cat Pats.txt 
+   14  2024-10-08 15:55:03 cat Pack\ Animals.txt 
+   15  2024-10-08 15:56:16 cat Pats.txt Pack\ Animals.txt >Animals.txt
+   16  2024-10-08 15:56:20 cat Animals.txt 
+   17  2024-10-08 15:57:21 mv Animals.txt "Human Friends.txt"
+   18  2024-10-08 15:57:31 cat Human\ Friends.txt 
+   19  2024-10-08 15:58:04 mkdir animals
+   20  2024-10-08 15:58:27 mv "Human Friends.txt" animals/
+   21  2024-10-08 15:58:31 ls
+   22  2024-10-08 15:58:40 ls ./animals/
+   23  2024-10-08 16:04:48 wget https://dev.mysql.com/get/mysql-apt-config_0.8.32-1_all.deb
+   24  2024-10-08 16:05:53 sudo dpkg -i mysql-apt-config_0.8.32-1_all.deb 
+   25  2024-10-08 16:07:29 sudo apt install mysql-server
+   26  2024-10-08 16:17:10 wget https://dev.mysql.com/get/Downloads/MySQLGUITools/mysql-workbench-community_8.0.38-1ubuntu24.04_amd64.deb
+   27  2024-10-08 16:17:29 sudo dpkg -i mysql-workbench-community_8.0.38-1ubuntu24.04_amd64.deb 
+   28  2024-10-08 16:23:14 sudo dpkg -i ./Downloads/Yandex.deb 
+   29  2024-10-08 16:26:59 sudo dpkg -r $(dpkg -f ./Downloads/Yandex.deb Package)
+   30  2024-10-08 16:27:27 systemctl status mysql
+   31  2024-10-08 16:30:15 history > history.txt
